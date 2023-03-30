@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { OrderListComponent } from './order-list/order-list.component';
 import { OrderDetailComponent } from './order-detail/order-detail.component';
 import { AppRoutingModule } from './app-routing.module';
+import { AddOrderComponent } from './add-order/add-order.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     OrderListComponent,
-    OrderDetailComponent
+    OrderDetailComponent,
+    AddOrderComponent
   ],
   imports: [
     BrowserModule,

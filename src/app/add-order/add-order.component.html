@@ -1,0 +1,17 @@
+<h2>Add Order</h2>
+
+<form (ngSubmit)="addOrder()">
+  <div>
+    <label for="orderNumber">Order Number:</label>
+    <input type="text" name="orderNumber" [(ngModel)]="order.orderNumber">
+  </div>
+  <div>
+    <label for="customer">Customer:</label>
+    <input type="text" name="customer" [(ngModel)]="order.customer">
+  </div>
+  <div>
+    <label for="total">Order Total:</label>
+    <input type="number" name="total" [(ngModel)]="order.total">
+  </div>
+  <button type="submit">Add Order</button>
+</form>

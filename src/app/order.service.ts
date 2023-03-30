@@ -40,6 +40,10 @@ export class OrderService {
       return of(null);
     }
   }
+
+  addOrder(order: Order): void {
+    this.orders.push(order);
+  }
   
 
   saveOrder(order: Order): Observable<boolean> {
