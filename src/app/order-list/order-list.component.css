@@ -39,3 +39,52 @@ table td:last-child {
   display: inline-block;
   font-weight: bold;
 }
+
+
+.table-header {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+.add-order-button {
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-right: 20px;
+}
+
+.add-order-button:hover {
+  opacity: 0.8;
+}
+
+.add-order-button i {
+  margin-right: 5px;
+}
+
+.orders-container {
+  position: relative;
+  margin-top: 20px;
+}
+
+.add-order-btn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 10px;
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.add-order-btn:hover {
+  opacity: 0.8;
+}
